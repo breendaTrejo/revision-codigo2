@@ -1,6 +1,6 @@
 var formulario = document.querySelector("#form")
 
-formulario.onsubmit = function(e) {
+formulario.onsubmit = function(e) { //ajuste en asignacion de la funcion a el elemento onsubmit
 
   e.prevent();
   
